@@ -1,8 +1,11 @@
-# React + Vite
+Tugas Harisenin.com mengimplementasikan penggunaan react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+semua data diambil dari fakestoreapi termasuk juga data users
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+data users :
+"username": "johnd",
+"password": "m38rmF$",
+"username": "mor*2314",
+"password": "83r5^*",
+"username": "kevinryan",
+"password": "kev02937@",

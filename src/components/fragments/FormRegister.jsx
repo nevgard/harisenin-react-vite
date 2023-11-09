@@ -32,7 +32,11 @@ const FormRegister = () => {
               name="password"
             ></InputForm>
           </form>
-          <Button type="submit" text="Register" />
+          <Button
+            type="submit"
+            text="Register"
+            classname="bg-black text-white p-3"
+          />
           <div className="flex justify-between items-center mt-3">
             <span className="text-sm">Have an account ?</span>
             <Link to="./register">

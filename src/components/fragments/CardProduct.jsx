@@ -32,10 +32,17 @@ const Body = (props) => {
   );
 };
 
-const Footer = () => {
+const Footer = (props) => {
+  const { price, handleAddToCart, id } = props;
   return (
-    <div className="footer mt-3">
-      <Button type="submit" text="Add To Cart" />
+    <div className="flex justify-between items-center mt-3">
+      <span className=" text-lg">USD {price}</span>
+      <Button
+        type="button"
+        onClick={() => handleAddToCart(id)}
+        text="Add To Cart"
+        classname="bg-black text-white p-2.5"
+      />
     </div>
   );
 };

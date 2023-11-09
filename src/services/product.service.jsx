@@ -19,3 +19,14 @@ export const getPreviewProduct = (callback) => {
       console.log(error);
     });
 };
+
+export const getFeaturedProduct = (callback) => {
+  axios
+    .get("https://fakestoreapi.com/products/category/jewelery")
+    .then((res) => {
+      callback(res.data);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+};
